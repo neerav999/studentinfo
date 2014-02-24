@@ -43,7 +43,7 @@
 	 //mysqlii_select_db("mysqli",$link) or die ("Cannot select the database!");
 	 $query="INSERT INTO students values('".$sname."', '".$roll."', '".$reg."', '".$dept."')";
 		
-		  if(!mysqli_query($query,$link))
+		  if(!mysqli_query($link,$query))
 		  {die ("An unexpected error occured while saving the record, Please try again!");}
 		  else
 		 {
