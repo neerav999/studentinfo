@@ -7,8 +7,11 @@ if (mysqli_connect_errno($con))
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
-echo "connect";
-// ...some PHP code for database "my_db"...
+  else
+{
+    echo "jai ho..........";
+
+}// ...some PHP code for database "my_db"...
 
 // Change database to "test"
 //mysqli_select_db($con,"test");
