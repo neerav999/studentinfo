@@ -42,9 +42,9 @@
 	 $link=mysqli_connect("studentinfo-db.my.phpcloud.com","studentinfo","n1e2r1a1v1","studentinfo") or die("Cannot Connect to the database!");
 	
 	 //mysqli_select_db("mysqli",$link) or die ("Cannot select the database!");
-	 $query="UPDATE students SET sname='".$sname."', rollno='".$roll."', regno='".$reg."', dname='".$dept."' WHERE id='".$id."'";
+	 $query="UPDATE students SET sname='$sname', rollno='$roll', regno='$reg', dname='$dept' WHERE id='$id'";
 		
-		  if(!mysqli_query($query,$link))
+		  if(!mysqli_query($link,$query))
 		  {die ("An unexpected error occured while saving the record, Please try again!");}
 		  else
 		 {

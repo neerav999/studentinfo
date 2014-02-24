@@ -38,9 +38,9 @@
 	 $link=mysqli_connect("studentinfo-db.my.phpcloud.com","studentinfo","n1e2r1a1v1","studentinfo") or die("Cannot Connect to the database!");
 	
 	 //mysqli_select_db("mysqli",$link) or die ("Cannot select the database!");
-	 $query="DELETE FROM students WHERE id='".$id."'";
+	 $query="DELETE FROM students WHERE id='$id'";
 		
-		  if(!mysqli_query($query,$link))
+		  if(!mysqli_query($link,$query))
 		  {die ("An unexpected error occured while <b>deleting</b> the record, Please try again!");}
 		  else
 		 {
