@@ -7,8 +7,8 @@
     }
     else
     {
-        mysqli_query($con,"INSERT INTO user(name)
-VALUES ('Griffin');
+        $query=mysqli_query($con,"insert into user VALUES('','neere')") or die("error");
+        echo "hello";
 }
 mysqli_close($con);
 ?>
