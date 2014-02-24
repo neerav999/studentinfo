@@ -44,7 +44,10 @@
 	 $query="INSERT INTO students values('".$sname."', '".$roll."', '".$reg."', '".$dept."')";
 		
 		  if(!mysqli_query($link,$query))
-		  {die ("An unexpected error occured while saving the record, Please try again!");}
+		  {
+		      echo $sname.$roll.$reg.$dept;
+		      die ("An unexpected error occured while saving the record, Please try again!");
+		  }
 		  else
 		 {
 		  echo "New record saved successfully!";}
