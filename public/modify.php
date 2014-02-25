@@ -45,8 +45,8 @@
 		<td><b>Name</b></td> <td><b>Roll No.</b></td><td><b>Reg No.</b></td><td><b>Deparment</b></td><td><b>Action</b></td></tr> ";
 while($result=mysqli_fetch_array($resource))
 	{ 
-	echo "<tr><td>'$result[1]'</td><td>'$result[2]'</td><td>'$result[3]'</td><td>'$result[4]'</td><td>
-	<a href=\"modify2.php?id='$result[0]'\"><img border=\"0\" src=\"img/cooltext457953689.png\"/></a>
+	echo "<tr><td>$result[1]</td><td>$result[2]</td><td>$result[3]</td><td>$result[4]</td><td>
+	<a href=\"modify2.php?id=$result[0]\"><img border=\"0\" src=\"img/cooltext457953689.png\"/></a>
 	</td></tr>";
 	} echo "</table>";
 	 ?>
