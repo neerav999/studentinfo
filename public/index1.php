@@ -21,15 +21,15 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 </style>
 </head>
 
-<body background="admin/images/1019286_abstract_orange_tiles_background_.jpg">
+<body background="img/1019286_abstract_orange_tiles_background_.jpg">
 
 <br />
 <br />
 <br />
 <table align="center" cellpadding="0" bgcolor="#FFFFFF" width="800" border="0">
   <tr>
-    <td><h1 align="center" class="heading"><img src="admin/images/computer.jpg" width="304" height="42" /></h1>
-      <h1 align="center" class="heading"><img src="admin/images/cooltext457954659.png" width="830" height="51" alt="Welcome to Site" /></h1>
+    <td><h1 align="center" class="heading"><img src="img/computer.jpg" width="304" height="42" /></h1>
+      <h1 align="center" class="heading"><img src="img/cooltext457954659.png" width="830" height="51" alt="Welcome to Site" /></h1>
       <p align="center">
         <?php 
 	 	 $link=mysqli_connect("studentinfo-db.my.phpcloud.com","studentinfo","n1e2r1a1v1","studentinfo") or die("Cannot Connect to the database!");
@@ -50,7 +50,7 @@ while($result=mysqli_fetch_array($resource))
         
       </p>
   <p align="center">&nbsp;</p>
-      <p align="center"> <a href="admin/index.php"><img border="0" src="admin/images/cooltext457954941.png" onmouseover="this.src='admin/images/cooltext457954941MouseOver.png';" onmouseout="this.src='admin/images/cooltext457954941.png';" /></a><a href="http://www.google.com"><img border="0" src="admin/images/cooltext457955210.png" onmouseover="this.src='admin/images/cooltext457955210MouseOver.png';" onmouseout="this.src='admin/images/cooltext457955210.png';" /></a></p>
+      <p align="center"> <a href="admin/index.php"><img border="0" src="img/cooltext457954941.png" onmouseover="this.src='img/cooltext457954941MouseOver.png';" onmouseout="this.src='img/cooltext457954941.png';" /></a><a href="http://www.google.com"><img border="0" src="img/cooltext457955210.png" onmouseover="this.src='img/cooltext457955210MouseOver.png';" onmouseout="this.src='img/cooltext457955210.png';" /></a></p>
       <center>
       <h1>Developed For Students</h1>
       </center>
