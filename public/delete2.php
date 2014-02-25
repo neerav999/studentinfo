@@ -48,7 +48,7 @@
 	 ?>
 
       </p>
-      <p align="center"><a href="delete.php"><img border="0" src="img/cooltext457951462.png" onmouseover="this.src='img/cooltext457951462MouseOver.png';" onmouseout="this.src='img/cooltext457951462.png';" /><a href="../"></a><a href="./"><img border="0" src="img/cooltext457951615.png" onmouseover="this.src='img/cooltext457951615MouseOver.png';" onmouseout="this.src='img/cooltext457951615.png';" /></a></p>
+      <p align="center"><a href="index1.php"><img border="0" src="img/cooltext457951615.png" onmouseover="this.src='img/cooltext457951615MouseOver.png';" onmouseout="this.src='img/cooltext457951615.png';" /></a></p>
       <p align="left">&nbsp;</p>
     <p align="left">&nbsp;</p></td>
   </tr>

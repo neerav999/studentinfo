@@ -72,7 +72,6 @@
             <input type="submit" name="button" id="button" value="Modify" />
           </label>
         </p>
-        <p align="center"><img onClick="javascript: history.go(-1)" border="0" src="img/cooltext457951462.png" alt="Go Back" onmouseover="this.src='img/cooltext457951462MouseOver.png';" onmouseout="this.src='img/cooltext457951462.png';" /></p>
         <p align="center"><a href="./"><img border="0" src="img/cooltext457951615.png" onmouseover="this.src='img/cooltext457951615MouseOver.png';" onmouseout="this.src='img/cooltext457951615.png';" /></a></p>
       </form>
 

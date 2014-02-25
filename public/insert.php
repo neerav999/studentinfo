@@ -52,7 +52,7 @@
             <input type="submit" name="button" id="button" value="Submit" />
           </label>
         </p>
-        <p align="center"><a href="./"><img border="0" src="img/cooltext457951462.png" alt="Go Back" onmouseover="this.src='img/cooltext457951462MouseOver.png';" onmouseout="this.src='img/cooltext457951462.png';" /></a></p>
+        <p align="center"><a href="index1.php"><img border="0" src="img/cooltext457951462.png" alt="Go Back" onmouseover="this.src='img/cooltext457951462MouseOver.png';" onmouseout="this.src='img/cooltext457951462.png';" /></a></p>
       </form>
 </td>
   </tr>
