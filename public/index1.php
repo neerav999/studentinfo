@@ -50,9 +50,8 @@ while($result=mysqli_fetch_array($resource))
         
       </p>
   <p align="center">&nbsp;</p>
-      <p align="center"> <a href="insert.php"><img border="0" src="img/cooltext457947887" onmouseover="this.src='img/cooltext457947887MouseOver';" onmouseout="this.src='img/cooltext457947887';" /></a><a href="delete.php"><img border="0" src="img/cooltext457947999" onmouseover="this.src='img/cooltext457947999MouseOver';" onmouseout="this.src='img/cooltext457947999';" /></a><a href="modify.php"><img border="0" src="img/cooltext457948094" onmouseover="this.src='img/cooltext457948094MouseOver';" onmouseout="this.src='img/cooltext457948094';" /></a></p>
+      <p align="center"> <a href="insert.php"><img border="0" src="img/cooltext457947887.png" onmouseover="this.src='img/cooltext457947887MouseOver.png';" onmouseout="this.src='img/cooltext457947887.png';" /></a><a href="delete.php"><img border="0" src="img/cooltext457947999.png" onmouseover="this.src='img/cooltext457947999MouseOver.png';" onmouseout="this.src='img/cooltext457947999.png';" /></a><a href="modify.php"><img border="0" src="img/cooltext457948094.png" onmouseover="this.src='img/cooltext457948094MouseOver.png';" onmouseout="this.src='img/cooltext457948094.png';" /></a></p>
       <center>
-      <h1>Developed For Students</h1>
       </center>
     <p align="left">&nbsp;</p></td>
   </tr>
