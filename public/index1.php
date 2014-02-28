@@ -22,7 +22,7 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 </head>
 
 <body background="img/1019286_abstract_orange_tiles_background_.jpg">
-<h1>Hello</h1>
+<!--<h1>Hello</h1-->
 <br />
 <br />
 <br />
